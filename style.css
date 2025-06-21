@@ -13,7 +13,7 @@ body{
     align-items: center;
     margin-top: 10px;
     gap: 50px;
-    background-color: rgba(195, 14, 14, 0.725);
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -31,10 +31,10 @@ body{
     font-size: x-large;
     font-weight: 600;
     border-radius: 8px;
-    /* margin-left: 30px; */
+    margin-left: 30px;
     justify-content: center;
     text-decoration: none;
-    color: rgb(245, 205, 205);
+    color: rgb(255, 255, 255);
 }
 
 .linksHeader a:hover {
@@ -68,17 +68,36 @@ body{
 .imgApresentacao {
     border-radius: 20px;
 }
+.carousel-item{
+    transition: transform 2.5s ease-in-out;
+}
+
 .imgTecnologias{
     display: flex;
     justify-content: center;
     gap: 30px;
     margin: 30px;
 }
+.secRedes{
+    border-radius: 10px;
+    margin-left: 39.5%;
+    padding: 5px 5px;
+    width: 20%;
+    height: 32px;
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    
+}
+.contato{
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+}
 .imgRedes{
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 50px;
+    
     
 }
 
