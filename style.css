@@ -1,0 +1,94 @@
+body{
+    background-color: bisque;
+}
+.imgLogo{
+ margin-left: 60px;
+}
+.secLink  {
+    width: 99%;
+    height: 80px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 50px;
+    background-color: rgba(195, 14, 14, 0.725);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,1.25);
+
+}
+.secLinks{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.linksHeader a {
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 8px;
+    /* margin-left: 30px; */
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(245, 205, 205);
+}
+
+.linksHeader a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+
+
+}
+.sectionApresentacao {
+    display: flex;
+    height: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.apresentacao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-align: center;
+}
+.desenvolvedor{
+    font-size: xx-large;
+}
+
+.imgApresentacao {
+    border-radius: 20px;
+}
+.imgTecnologias{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+.imgRedes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+
+
+.secdois {
+    height: 1000px;
+    background-color: brown;
+}
+
+.sectres {
+    height: 1000px;
+    background-color: rgb(48, 2, 232);
+}
