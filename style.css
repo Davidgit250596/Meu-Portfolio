@@ -1,8 +1,8 @@
 body{
-    background-color: bisque;
+    background-color: rgb(255, 223, 184); 
 }
 .imgLogo{
- margin-left: 60px;
+ margin-left: 100px;
 }
 .secLink  {
     width: 99%;
@@ -55,23 +55,26 @@ body{
 
 .apresentacao {
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
     text-align: center;
 }
-.desenvolvedor{
+.textoDesenvolvedor{
+    margin-top: 30px;
     font-size: xx-large;
 }
-
-.imgApresentacao {
-    border-radius: 20px;
+.d-block{
+   border-radius: 8px;
 }
-.carousel-item{
-    transition: transform 2.5s ease-in-out;
+.textoTecnologia{
+    margin-top: 40px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
-
 .imgTecnologias{
     display: flex;
     justify-content: center;
@@ -82,21 +85,19 @@ body{
     border-radius: 10px;
     margin-left: 39.5%;
     padding: 5px 5px;
-    width: 20%;
-    height: 32px;
-    background: linear-gradient(to right, #feb47b, #ff7e5f);
-    
+    width: 22%;
+    height: 40px;    
 }
 .contato{
     font-size: larger;
     font-weight: 500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
 }
 .imgRedes{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     
     
 }
